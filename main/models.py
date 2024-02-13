@@ -1,6 +1,7 @@
 # Create your models here.
 from django.db import models
 from django.contrib.auth.models import User
+
 class Post(models.Model):
     titulo = models.CharField(max_length=100)
     cuerpo = models.TextField(help_text="Incluye el contenido de tu articulo")
