@@ -2,7 +2,7 @@ Django
 djangorestframework
 pyyaml
 uritemplate
-django_filter
+
 
 # Django environment variables
 # https://django-environ.readthedocs.io/
