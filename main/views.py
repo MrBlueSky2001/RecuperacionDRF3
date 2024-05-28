@@ -16,4 +16,4 @@ class ValoracionViewSet(viewsets.ModelViewSet):
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     ordering_fields = ['fecha_registro']
 
-#Prueba de push
+#Prueba de push 28/05/24
