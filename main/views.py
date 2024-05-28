@@ -15,3 +15,5 @@ class ValoracionViewSet(viewsets.ModelViewSet):
     serializer_class = ValoracionSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     ordering_fields = ['fecha_registro']
+
+#Prueba de push
